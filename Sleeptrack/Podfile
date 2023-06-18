@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Sleeptrack' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+	pod 'SQLite.swift', '~> 0.14.0'
+  # Pods for Sleeptrack
+
+  target 'SleeptrackTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SleeptrackUITests' do
+    # Pods for testing
+  end
+
+end

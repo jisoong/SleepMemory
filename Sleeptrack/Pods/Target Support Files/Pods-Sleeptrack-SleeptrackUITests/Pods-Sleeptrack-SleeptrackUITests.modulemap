@@ -1,0 +1,6 @@
+framework module Pods_Sleeptrack_SleeptrackUITests {
+  umbrella header "Pods-Sleeptrack-SleeptrackUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
